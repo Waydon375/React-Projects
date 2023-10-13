@@ -1,0 +1,18 @@
+.slider{
+    height: 40px;
+    width: 100%;
+    border: 2px solid rgb(60, 255, 0);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.thumb{
+    background-color:rgb(21, 255, 1) ;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.thumb:hover{
+    box-shadow: 1px 1px 12px rgb(0, 253, 0) ;
+}
